@@ -1,0 +1,19 @@
+{
+    "name": "08-socket-basico",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "dev": "nodemon server/server",
+        "start": "node server/server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.16.3",
+        "socket.io": "^2.0.4"
+    },
+    "devDependencies": {
+        "nodemon": "^1.19.4"
+    }
+}
